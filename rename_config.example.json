@@ -1,0 +1,31 @@
+{
+  "root": "D:\\Projects",
+  "backup_roots": {
+    "C": "C:\\ClaudeMigrationBackup",
+    "D": "D:\\ClaudeMigrationBackup"
+  },
+  "rename": {
+    "旧目录名一": "new-name-one",
+    "旧目录名二": "new-name-two",
+    "SomeProject": "group/SomeProject",
+    "D:\\Projects\\Other": "D:\\Projects\\group\\Other"
+  },
+  "retire_dirs": ["已合并的旧目录"],
+  "keep_sessions": {
+    "00000000-0000-0000-0000-000000000000": "挂到这个目录下（root 下的目录名）"
+  },
+  "orphan_encoded_dirs": ["D--Projects-deleted-folder"],
+  "memory": {
+    "D--Projects-----": {
+      "owner": "旧目录名一",
+      "drop": ["not-needed-memory.md"]
+    }
+  },
+  "drop_missing_under": ["D:\\Projects"],
+  "text_scan_roots": ["D:\\Projects"],
+  "text_exts": [".md", ".txt", ".py", ".json", ".ps1", ".bat", ".cmd", ".sh", ".js", ".m"],
+  "text_skip_dirs": ["logs", ".git"],
+  "text_skip_files": ["PROJECT_HISTORY.md"],
+  "text_skip_suffixes": [".log"],
+  "text_skip_paths": ["D:\\Projects\\some-tool\\runs"]
+}

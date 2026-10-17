@@ -1,0 +1,5 @@
+# 文本文件仓库内和检出后都用 LF（不受本机 core.autocrlf 影响，各项目统一；2026-10-15 用户要求）
+* text=auto eol=lf
+
+# Windows 批处理在检出时必须是 CRLF，否则 cmd 可能错读标签和多行块
+*.bat text eol=crlf

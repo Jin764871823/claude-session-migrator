@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Migration backup / replaced dirs (normally created inside Claude's data
+# folders, not here — ignored just in case they ever land in the repo tree)
+*__BACKUP_BEFORE_MIGRATION_*/
+*__REPLACED_*/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
